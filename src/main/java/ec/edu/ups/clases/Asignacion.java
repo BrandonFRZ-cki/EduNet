@@ -2,6 +2,7 @@ package ec.edu.ups.clases;
 
 import ec.edu.ups.enums.Rol;
 
+import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
 public class Asignacion {
@@ -43,10 +44,7 @@ public class Asignacion {
 
     @Override
     public String toString() {
-        return "Asignacion{" +
-                "persona=" + persona +
-                ", fechaInicio=" + fechaInicio +
-                ", rol=" + rol +
-                '}';
+        SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+        return "\n Fecha Inicio : "+formato.format(fechaInicio.getTime()) +" " + rol + " " + persona  ;
     }
 }

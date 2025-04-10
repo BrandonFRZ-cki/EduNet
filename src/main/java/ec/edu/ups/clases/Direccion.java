@@ -83,14 +83,6 @@ public class Direccion {
 
     @Override
     public String toString() {
-        return "Direccion{" +
-                "tipoDireccion=" + tipoDireccion +
-                ", callePrincipal='" + callePrincipal + '\'' +
-                ", calleSecundaria='" + calleSecundaria + '\'' +
-                ", numeracion='" + numeracion + '\'' +
-                ", ciudad='" + ciudad + '\'' +
-                ", provincia='" + provincia + '\'' +
-                ", pais='" + pais + '\'' +
-                '}';
+        return "Direccion de \' " + tipoDireccion+" \' \n\t"+callePrincipal + " " + calleSecundaria + " " + numeracion + " | " + ciudad + " " + provincia + " "+pais;
     }
 }

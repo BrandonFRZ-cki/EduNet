@@ -33,6 +33,12 @@ public class Docente extends Persona {
     public void setAreasDeEspeciializacion(List<String> areasDeEspeciializacion) {
         this.areasDeEspeciializacion = areasDeEspeciializacion;
     }
+    public void addTitulosAcademico(String tituloAcademico) {
+        titulosAcademicos.add(tituloAcademico);
+    }
+    public void addAreasDeEspeciializacion(String areaDeEspeciializacion) {
+        areasDeEspeciializacion.add(areaDeEspeciializacion);
+    }
 
     @Override
     public String toString() {

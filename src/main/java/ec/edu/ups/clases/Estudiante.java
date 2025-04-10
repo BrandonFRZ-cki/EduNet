@@ -1,5 +1,7 @@
 package ec.edu.ups.clases;
 
+import java.util.ArrayList;
+
 public class Estudiante extends Persona {
     private String carrera;
 

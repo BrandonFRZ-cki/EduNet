@@ -34,6 +34,13 @@ public class Administrativo extends Persona{
         this.responsabilidades = responsabilidades;
     }
 
+    public void addCargo(String cargo) {
+        cargos.add(cargo);
+    }
+    public void addResponsabilidade(String responsabilidade) {
+        responsabilidades.add(responsabilidade);
+    }
+
     @Override
     public String toString() {
         return "Administrativo{" +
